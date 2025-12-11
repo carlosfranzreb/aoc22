@@ -39,7 +39,7 @@ def right_order(left, right):
             return check_lists(left, right)
 
 
-def q1(fname)
+def q1(fname):
     result = 0
     lines = open(fname).readlines()
     for i in range(0, len(lines), 3):
